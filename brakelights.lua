@@ -63,11 +63,7 @@ local function controlOuterBlinkers(active)
 end
 
 local function outerBlinkersBehaviour()
-    if isHardBraking then
-        controlOuterBlinkers(true)
-    else
-        controlOuterBlinkers(false)
-    end
+    controlOuterBlinkers(isHardBraking)
 end
 
 --Behaviour:
