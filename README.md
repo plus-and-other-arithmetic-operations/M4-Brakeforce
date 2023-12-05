@@ -22,7 +22,7 @@ LOCATION = REAR
 
 Add the script entry into the car's ext_config:
 
-```
+```ini
 [SCRIPT_...]
 SCRIPT = 'brakelights.lua'
 ```
